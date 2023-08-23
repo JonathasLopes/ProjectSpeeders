@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Thin';
+    src: local('CenturyGothicTh'), url(./fonts/CenturyGothicTh.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: local('CenturyGothic'), url(./fonts/CenturyGothic.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'MediumItalic';
+    src: local('CenturyGothicIt'), url(./fonts/CenturyGothicIt.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: local('CenturyGothicBd'), url(./fonts/CenturyGothicBd.otf) format('opentype');
+}

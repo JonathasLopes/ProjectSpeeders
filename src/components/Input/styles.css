@@ -1,0 +1,51 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.input-container label {
+    color: var(--color-label);
+    font-size: 12px;
+    margin-bottom: 2px;
+    transition: color .2s linear;
+}
+
+.input-container input {
+    border: none;
+    border-bottom: 1px solid var(--color-black);
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    transition: border-bottom .2s linear;
+}
+
+.input-container input:focus {
+    border-bottom: 2px solid var(--color-dark-blue);
+}
+
+.input-container label:has(+ .input-with-eye input:focus){
+    color: var(--color-dark-blue);
+}
+
+.input-container input::placeholder {
+    color: var(--color-placeholder);
+}
+
+.input-container input:focus::placeholder {
+    visibility: hidden;
+}
+
+.input-with-eye {
+    position: relative !important;
+}
+
+.input-with-eye > .btn-eye {
+    position: absolute;
+    top: 2px;
+    right: -10px;
+    z-index: 2;
+    background-color: var(--color-white);
+}

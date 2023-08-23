@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "email": "user@user.com",
+      "name": "User",
+      "password": "1234"
+    },
+    {
+      "id": "user2",
+      "email": "user2@user.com",
+      "name": "User2",
+      "password": "1234"
+    },
+    {
+      "id": "3c14f451-e4a6-edec-44d9-69af95a9affd",
+      "name": "jonathas",
+      "email": "jonathas@teste.com",
+      "password": "1234"
+    },
+    {
+      "id": "d21ce14c-c795-b060-5bc5-98b899a9ae1a",
+      "name": "teste",
+      "email": "teste@teste123.com",
+      "password": "1234"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+* {
+  font-family: 'Medium';
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  color: var(--color-text);
+  background-color: var(--color-white);
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.body-main {
+  background-image: url("../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

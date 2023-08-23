@@ -1,0 +1,9 @@
+.btn-container {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: "Bold";
+    font-size: 18px;
+    width: 250px;
+    height: 50px;
+}
